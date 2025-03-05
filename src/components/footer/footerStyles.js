@@ -9,6 +9,6 @@ export const FooterContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #4c048c;
   font-weight: 800;
 `;
