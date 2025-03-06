@@ -35,6 +35,7 @@ export const TextContainer = styled.div`
 
   @media (max-width: 800px) {
     h3 {
+      font-size: 1.5rem;
       margin: 0;
     }
     a {
@@ -51,7 +52,9 @@ export const ImageContainer = styled.div`
 
   @media (max-width: 800px) {
     img {
-      width: 100%;
+      width: 90%;
+      border-radius: 5px;
+      padding-bottom: 10px;
     }
   }
 `;
@@ -71,7 +74,8 @@ export const MercadoPagoContainer = styled.div`
   @media (max-width: 800px) {
     flex-direction: column;
     gap: 30px;
-    padding: 30px;
+    padding: 0;
+    padding-top: 20px;
     width: 100%;
   }
 `;
@@ -91,7 +95,8 @@ export const WhatsappContainer = styled.div`
   @media (max-width: 800px) {
     flex-direction: column;
     gap: 30px;
-    padding: 30px;
+    padding: 0;
+    padding-top: 20px;
     width: 100%;
   }
 `;

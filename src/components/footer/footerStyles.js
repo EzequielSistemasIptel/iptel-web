@@ -16,7 +16,7 @@ export const FooterContainer = styled.div`
 
   @media (max-width: 800px) {
     p {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
     }
   }
 `;
@@ -62,5 +62,8 @@ export const ListContainer = styled.div`
 
   @media (max-width: 800px) {
     flex-direction: column;
+    ul {
+      padding-left: 20px;
+    }
   }
 `;

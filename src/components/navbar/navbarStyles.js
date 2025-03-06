@@ -45,4 +45,22 @@ export const NavbarContainer = styled.header`
       width: 100%;
     }
   }
+
+  .menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  @media (max-width: 800px) {
+    img {
+      width: 80px;
+    }
+    ul {
+      display: none;
+    }
+    .menu-icon {
+      display: block;
+    }
+  }
 `;
