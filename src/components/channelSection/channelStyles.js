@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ChannelContainer = styled.div`
-  background-color: #d0d0d0;
+  background-color: #ebebeb;
   width: 100%;
   max-width: 1500px;
   padding-bottom: 30px;
