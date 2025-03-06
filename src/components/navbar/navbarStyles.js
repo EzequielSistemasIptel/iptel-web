@@ -27,7 +27,7 @@ export const NavbarContainer = styled.header`
     position: relative;
 
     &:hover {
-      color: #743ca7;
+      color: #593c89;
     }
 
     &::after {
@@ -37,7 +37,7 @@ export const NavbarContainer = styled.header`
       left: 0;
       width: 0;
       height: 2px;
-      background-color: #743ca7;
+      background-color: #593c89;
       transition: width 0.3s ease;
     }
 
