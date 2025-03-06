@@ -68,9 +68,14 @@ export const NavbarContainer = styled.header`
       padding: 20px;
       margin: 0;
       z-index: 99;
+      display: none;
+    }
+    ul.active {
+      display: block;
     }
     li {
       font-size: 1.5rem;
+      padding: 5px;
     }
     .menu-icon {
       display: block;
