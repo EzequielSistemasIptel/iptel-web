@@ -13,9 +13,13 @@ export const SliderContainer = styled.div`
   position: relative;
   width: 100%;
   max-width: 1500px;
-  height: 500px;
-  //margin: 0 auto;
+  //height: 500px;
+  height: 80vh;
+  margin: 0 auto;
   overflow: hidden;
+  @media screen and (max-width: 800px) {
+    height: 20vh;
+  }
 `;
 
 export const SliderWrapper = styled.div`
