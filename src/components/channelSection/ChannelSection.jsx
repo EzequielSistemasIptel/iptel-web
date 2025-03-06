@@ -10,7 +10,7 @@ const ChannelSection = () => {
             <TextContainer>
                 <h3>ABONA TUS FACTURAS CON MERCADOPAGO</h3>
                 <p>Paga tus facturas por Mercadopago.</p>
-                <button>PAGAR EL SALDO DE MI CUENTA</button>
+                <a href='#'>PAGAR EL SALDO DE MI CUENTA</a>
             </TextContainer>
             <ImageContainer>
                 <img src={mercadoPago} alt="Mercado Pago/Facturas" />
@@ -20,7 +20,7 @@ const ChannelSection = () => {
         <TextContainer>
                 <h3>ENCONTRANOS EN WHATSAPP</h3>
                 <p>La mejor atención personalizada.</p>
-                <button>WHATSAPP IPTEL</button>
+                <a href='https://api.whatsapp.com/send?phone=543462369040'>WHATSAPP IPTEL</a>
             </TextContainer>
             <ImageContainer>
                 <img src={whatsappImage} alt="Whatsapp contacto" />

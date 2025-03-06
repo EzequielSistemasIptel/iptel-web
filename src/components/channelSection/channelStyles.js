@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const ChannelContainer = styled.div`
+  background-color: #d0d0d0;
   width: 100%;
   max-width: 1500px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -19,7 +20,8 @@ export const TextContainer = styled.div`
     font-size: 1.5rem;
     color: #f3f3f3;
   }
-  button {
+  a {
+    text-decoration: none;
     background-color: #593c89;
     border: none;
     border-radius: 10px;
@@ -27,7 +29,7 @@ export const TextContainer = styled.div`
     color: white;
     font-size: 1rem;
     font-weight: 900;
-    width: 70%;
+    width: 100%;
     cursor: pointer;
   }
 `;

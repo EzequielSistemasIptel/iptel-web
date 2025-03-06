@@ -4,7 +4,8 @@ export const CardContainer = styled.div`
   width: 20%;
   min-height: 290px;
   height: auto;
-  background-color: #d3d3d3;
+  //background-color: #d3d3d3;
+  background-color: white;
   border: none;
   border-radius: 20px;
   //padding: 1rem;

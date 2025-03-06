@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const ServicesContainer = styled.div`
   width: 100%;
   max-width: 1500px;
-  margin-bottom: 30px;
+  padding: 30px 0;
+  background-color: #d0d0d0;
 
   p {
     font-size: 2rem;
