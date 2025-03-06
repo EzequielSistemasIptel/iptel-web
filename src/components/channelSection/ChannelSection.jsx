@@ -20,7 +20,7 @@ const ChannelSection = () => {
         <TextContainer>
                 <h3>ENCONTRANOS EN WHATSAPP</h3>
                 <p>La mejor atención personalizada.</p>
-                <a href='https://api.whatsapp.com/send?phone=543462369040'>WHATSAPP IPTEL</a>
+                <a href='https://api.whatsapp.com/send?phone=543462369040' target='blank'>WHATSAPP IPTEL</a>
             </TextContainer>
             <ImageContainer>
                 <img src={whatsappImage} alt="Whatsapp contacto" />

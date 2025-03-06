@@ -12,8 +12,13 @@ export const FooterContainer = styled.div`
   flex-direction: column;
   gap: 20px;
   color: #593c89;
-  font-weight: 800;
   padding: 2rem 0 2rem 0;
+
+  @media (max-width: 800px) {
+    p {
+      font-size: 1.4rem;
+    }
+  }
 `;
 
 export const ImageContainer = styled.div`
@@ -26,6 +31,11 @@ export const ImageContainer = styled.div`
     aspect-ratio: 3/2;
     object-fit: contain;
     //mix-blend-mode: color-burn;
+  }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    align-items: center;
   }
 `;
 
@@ -47,5 +57,10 @@ export const ListContainer = styled.div`
     display: flex;
     align-items: center;
     gap: 7px;
+    //font-weight: 800;
+  }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
   }
 `;

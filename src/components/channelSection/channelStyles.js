@@ -32,12 +32,27 @@ export const TextContainer = styled.div`
     width: 100%;
     cursor: pointer;
   }
+
+  @media (max-width: 800px) {
+    h3 {
+      margin: 0;
+    }
+    a {
+      padding: 10px;
+    }
+  }
 `;
 
 export const ImageContainer = styled.div`
   img {
     width: 500px;
     border-radius: 20px;
+  }
+
+  @media (max-width: 800px) {
+    img {
+      width: 100%;
+    }
   }
 `;
 
@@ -52,6 +67,13 @@ export const MercadoPagoContainer = styled.div`
   gap: 10px;
   align-items: center;
   justify-content: space-around;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    width: 100%;
+  }
 `;
 
 export const WhatsappContainer = styled.div`
@@ -65,4 +87,11 @@ export const WhatsappContainer = styled.div`
   gap: 10px;
   align-items: center;
   justify-content: space-around;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    width: 100%;
+  }
 `;
