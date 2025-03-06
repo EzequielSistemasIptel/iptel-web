@@ -1,4 +1,5 @@
 import "./App.css";
+import ChannelSection from "./components/channelSection/ChannelSection";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import ServicesSection from "./components/servicesSection/ServicesSection";
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Slider />
         <ServicesSection />
+        <ChannelSection />
         <Footer />
       </div>
     </>
