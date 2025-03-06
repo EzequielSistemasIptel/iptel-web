@@ -75,7 +75,7 @@ export const NavbarContainer = styled.header`
     }
     li {
       font-size: 1.5rem;
-      padding: 5px;
+      padding: 8px;
     }
     .menu-icon {
       display: block;
