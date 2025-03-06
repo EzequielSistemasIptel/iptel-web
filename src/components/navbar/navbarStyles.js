@@ -20,6 +20,7 @@ export const NavbarContainer = styled.header`
     display: flex;
     flex-direction: row;
     gap: 15px;
+    list-style-type: none;
   }
 
   li {
@@ -52,12 +53,24 @@ export const NavbarContainer = styled.header`
     cursor: pointer;
   }
 
-  @media (max-width: 800px) {
+  @media screen and (max-width: 800px) {
     img {
       width: 80px;
     }
     ul {
-      display: none;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 6rem;
+      left: 0;
+      right: 0;
+      background-color: #9c74bc;
+      padding: 20px;
+      margin: 0;
+      z-index: 99;
+    }
+    li {
+      font-size: 1.5rem;
     }
     .menu-icon {
       display: block;
