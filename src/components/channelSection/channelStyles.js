@@ -13,12 +13,20 @@ export const ChannelContainer = styled.div`
 `;
 
 export const TextContainer = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   h3 {
     font-size: 2.2rem;
+    margin: 0;
   }
   p {
     font-size: 1.5rem;
     color: #f3f3f3;
+    margin-bottom: 10px;
   }
   a {
     text-decoration: none;
@@ -29,7 +37,6 @@ export const TextContainer = styled.div`
     color: white;
     font-size: 1rem;
     font-weight: 900;
-    width: 100%;
     cursor: pointer;
   }
 
