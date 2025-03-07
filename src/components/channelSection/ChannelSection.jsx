@@ -10,7 +10,7 @@ const ChannelSection = () => {
             <TextContainer>
                 <h3>ABONA TUS FACTURAS CON MERCADOPAGO</h3>
                 <p>Paga tus facturas por Mercadopago.</p>
-                <a href='#'>PAGAR EL SALDO DE MI CUENTA</a>
+                <a href='https://api.whatsapp.com/send?phone=543462369040'>PAGAR EL SALDO DE MI CUENTA</a>
             </TextContainer>
             <ImageContainer>
                 <img src={mercadoPago} alt="Mercado Pago/Facturas" />

@@ -12,7 +12,7 @@ export const FooterContainer = styled.div`
   flex-direction: column;
   gap: 20px;
   color: #593c89;
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 0 3.5rem 0;
 
   @media (max-width: 800px) {
     p {

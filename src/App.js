@@ -1,4 +1,5 @@
 import "./App.css";
+import ButtonScroll from "./components/buttonScroll/ButtonScroll";
 import ChannelSection from "./components/channelSection/ChannelSection";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
@@ -14,6 +15,7 @@ function App() {
         <ServicesSection />
         <ChannelSection />
         <Footer />
+        <ButtonScroll />
       </div>
     </>
   );
