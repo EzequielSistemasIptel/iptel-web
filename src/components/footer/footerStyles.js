@@ -4,6 +4,7 @@ export const FooterContainer = styled.div`
   width: 100%;
   max-width: 1500px;
   height: auto;
+  margin: 0 auto;
   min-height: 6rem;
   background-color: #9c74bc;
   display: flex;

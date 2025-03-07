@@ -5,6 +5,7 @@ export const NavbarContainer = styled.header`
   color: white;
   height: 6rem;
   width: 100%;
+  margin: 0 auto;
   max-width: 1500px;
   display: flex;
   justify-content: space-around;

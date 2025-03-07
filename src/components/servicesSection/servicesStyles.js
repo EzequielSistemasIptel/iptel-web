@@ -4,6 +4,7 @@ export const ServicesContainer = styled.div`
   width: 100%;
   max-width: 1500px;
   padding: 30px 0;
+  margin: 0 auto;
   background-color: #ebebeb;
 
   p {

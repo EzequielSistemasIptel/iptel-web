@@ -4,6 +4,7 @@ export const ChannelContainer = styled.div`
   background-color: #ebebeb;
   width: 100%;
   max-width: 1500px;
+  margin: 0 auto;
   padding-bottom: 30px;
   display: flex;
   justify-content: center;
